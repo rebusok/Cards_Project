@@ -1,0 +1,33 @@
+
+
+.main_wrapped{
+  width: 100%;
+  padding: 20px;
+  .table_wrapped{
+    border: 1px solid black;
+    .title_wrapped{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      height: 30px;
+      border-bottom: 1px solid black;
+
+      .title_item {
+        width: calc(100% / 4);
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+.Arrow{
+  cursor: pointer;
+}
+.Arrow_active {
+  color: blue;
+}
+.Arrow_load{
+  opacity: .5;
+}

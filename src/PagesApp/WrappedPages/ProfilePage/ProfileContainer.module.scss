@@ -1,0 +1,37 @@
+.profile_main_wrapper {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+    h1 {
+      text-align: center;
+    }
+  .profile_item_wrapper {
+    display: flex;
+    flex-direction: column;
+    .profile_item {
+      margin-bottom: 5px;
+      .item_title {
+        margin-right: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    span {
+      margin-left: 50px;
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+}
+
+.change_name{
+  opacity: .6;
+  margin-left: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}

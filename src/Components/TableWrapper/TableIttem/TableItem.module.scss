@@ -1,0 +1,22 @@
+
+
+.card_wrapped{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	min-height: 30px;
+	border-bottom: 1px solid black;
+	&:last-child {
+		border-bottom: none;
+	}
+	.card_item {
+		width: calc(100% / 4);
+		text-align: center;
+		min-height: 30px;
+	}
+	.card_item_btn {
+		display: flex;
+		justify-content: space-around;
+	}
+}

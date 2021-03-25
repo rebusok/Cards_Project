@@ -1,0 +1,63 @@
+.reg_wrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+
+  input {
+    width: 350px;
+    position: relative;
+    text-align: left;
+    margin: 20px;
+    padding-bottom: 15px;
+  }
+
+  button{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .container {
+    h1{
+      text-align: center;
+    }
+    .reg_wrapper {
+      font-size: 13px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin: 30px;
+      padding-bottom: 30px;
+
+    }
+    input{
+      font-size: 120%;
+      text-align: center;
+      width: 250px;
+      margin: 3px;
+      padding-bottom: 3px;
+
+    }
+
+    button{
+      font-size: 15px;
+      margin-bottom: 50px;
+
+
+    }
+  }
+}
+

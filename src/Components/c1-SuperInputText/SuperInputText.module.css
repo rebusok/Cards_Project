@@ -1,0 +1,41 @@
+.superInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 2rem;
+    width: 58%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: black;
+}
+
+
+.errorInput{
+    border-bottom: 1px solid red;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+}
+
+
+.otherInput, .errorInput{
+    max-width: 350px;
+}
+
+.otherInput::placeholder, .errorInput::placeholder{
+    color: black;
+    opacity: .5;
+    padding: 0 10px;
+}
+
+.search_panel {
+    width: 200px;
+}
+

@@ -1,0 +1,50 @@
+.button_default {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(215, 214, 214);
+    padding: .5em 1.5em;
+    outline: none;
+    border: 0.01em solid #b1b1b1;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_table {
+    padding: .4em 1em;
+}
+
+.button_red {
+    color: black;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(239, 15, 0);
+    padding: .5em 1.5em;
+    outline: none;
+    border: 1px solid #bf7c7c;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button_red:hover {
+    background: rgb(255, 78, 66);
+}
+
+.button_red:active {
+    background: rgb(255, 140, 125);
+}
+
+.button_default:hover {
+    background: rgb(196, 196, 196);
+}
+
+.button_default:active {
+    background: rgb(112, 112, 112);
+}
+
+.button_default:disabled {
+    opacity: .3;
+}

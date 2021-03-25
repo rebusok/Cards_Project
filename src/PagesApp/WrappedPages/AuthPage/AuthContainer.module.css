@@ -1,0 +1,48 @@
+.auth_wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth_main h3 {
+    text-align: center;
+}
+
+.auth_main {
+    max-width: 500px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.auth_link{
+    position: absolute;
+    bottom: -17%;
+    transform: translatex(75%);
+}
+.auth_link span {
+    margin-right: 13px;
+}
+.auth_link span a {
+    font-size: 13px;
+    text-decoration: none;
+}
+.input_block{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.btn_check {
+    margin-right: 100px;
+}
+.btn_check span {
+    font-size: 13px;
+}
+
+.errorMesOp {
+    font-size: 14px;
+    color: red;
+}
